@@ -82,14 +82,7 @@ Identifier              [a-zA-Z_][a-zA-Z0-9_]*
 										cout<<yytext<<endl;;
 										cout<<"\t it is id \n";
 									}
-
-{Integer}							{
-										colNo += strlen(yytext);
-										int x=atoi(yytext);
-										cout<<x<<endl;
-										
-									}
-											
+		
 
 %%
 
